@@ -1,8 +1,47 @@
-.Topbar {
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+.topbar {
     font-family: Arial, sans-serif;
     background-color: rgba(30, 255, 0, 0.37);
-    height: 40px;
+    height: 5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+  }
+
+  .search{
+    height: 87%;
+    align-items: center;
+  }
+
+  .searchform{
+    display: flex;
+    align-items: center;
+    
+    
+  }
+
+  .footer {
+    font-family: Arial, sans-serif;
+    background-color: rgba(30, 255, 0, 0.37);
+    height: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .footer-links{
+    display: inline-flex;
+    list-style: none;
+    margin-right: 20px;
+    gap: 10px;
+    margin-right: 5%;
+  }
+
+  footer .footer-links{
+    display: flex;
+    justify-content: space-between;
   }
