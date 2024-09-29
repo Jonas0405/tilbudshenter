@@ -1,0 +1,8 @@
+.Topbar {
+    font-family: Arial, sans-serif;
+    background-color: rgba(30, 255, 0, 0.37);
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
