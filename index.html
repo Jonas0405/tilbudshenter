@@ -8,22 +8,30 @@
     <title>Tilbudsfinder</title>
     </head>
 <body>
+
 <div class="topbar">
     <a href="index.html">Hjem</a>
-    <a href="MineTilbud.html">Mine Tilbud</a>
+    <a href="Hent.html">Hent Tilbud</a>
 </div>
 
-<div class="search">
-    <form class=searchform>
-        <h1>Tilbudsfinder1</h1>
-        <input type="text" placeholder="Søg produkt" aria-label="Søg produkt">
+<div class="searchcontainer">
+  <div class="searchlogo">
+    <img src="Billeder/shoppingbag.png" alt="Google Logo" class="logo">
+  </div>
+  <div class="searchbox">
+    <form name="search">
+        <input type="text" 
+        class="input" 
+        name="txt" 
+        onmouseout="this.value = ''; this.blur();">
     </form>
-    <button>Søg</button>
+</div>
+  
 </div>
 
 <footer>
     <div class="footer">
-      <p>&copy; 2023 Your Company Name</p>
+      <p>&copy; Jonas Weber</p>
       <ul class="footer-links">
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contact Us</a></li>
