@@ -1,7 +1,30 @@
+@font-face {
+  font-family: Geist;
+  src: url(../fonts/Geist.woff2) format('woff2'),
+       url(../fonts/Geist.woff) format('woff'),
+       url(../fonts/Geist.ttf) format('truetype');
+}
+
+
 html, body{
   height: 100vh;
   background-color: #ebeceb;
   margin: 0;
+}
+
+a{
+  color: #1e2a28ba;
+  font-size: 18px;
+  font-family: Geist, sans-serif;
+  text-decoration: none;
+}
+
+p{
+  font: Geist, sans-serif;
+}
+
+.homelogo{
+  height: 30px;
 }
 
 .searchcontainer{
@@ -11,7 +34,7 @@ html, body{
 .searchlogo img{
   display: flex;
   align-items: center;
-  width: 80px;
+  width: 150px;
 }
 
 .topbar {
@@ -21,6 +44,7 @@ html, body{
     justify-content: space-between;
     align-items: center;
     margin: 0 20px;
+    padding: 5px 0;
   }
 
   .searchcontainer{
@@ -29,15 +53,13 @@ html, body{
     height: 87%;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 50px;
     
-  }*/
+  }
 
   .searchform{
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center;   
   }
 
   .footer {
