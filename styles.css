@@ -13,10 +13,15 @@ html, body{
 }
 
 a{
-  color: #1e2a28ba;
+  color: #384e4b;
   font-size: 18px;
   font-family: Geist, sans-serif;
+  font-weight: 400;
   text-decoration: none;
+  
+}
+a:hover{
+  color: #202020;
 }
 
 p{
@@ -62,6 +67,35 @@ p{
     align-items: center;   
   }
 
+  .searchbox{
+    background-color: black;
+    display: flex;
+    height: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .searchbox input{
+    width: 0;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    background: transparent
+  }
+  
+  .searchbox:hover input {
+    width: 400px; /* width when focused (clicked) */
+  }
+
+  .searchbox a .fas{
+    color: #384e4b;
+    font-size: px;
+  }
+
   .footer {
     background-color: #ebeceb;
     height: 5vh;
@@ -82,3 +116,5 @@ p{
     display: flex;
     justify-content: space-between;
   }
+
+  
